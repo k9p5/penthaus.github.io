@@ -8,23 +8,40 @@
 }
 
 #section-3-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
   padding-top: 18rem;
 }
 
 #card-container-spacer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
 }
 
 .card-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 2;
+  -ms-flex: 2;
   flex: 2;
 }
 
 .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
 }
@@ -33,14 +50,33 @@
   border: 0.3rem solid transparent;
   border-radius: 1.4rem;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding: 2rem 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 #card-1 {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#1a1a1a),
+      to(#1a1a1a)
+    ),
+    -webkit-gradient(linear, left top, left bottom, from(#548bfa), to(#28f1c3));
+  background: -o-linear-gradient(left, #1a1a1a, #1a1a1a),
+    -o-linear-gradient(top, #548bfa, #28f1c3);
   background: linear-gradient(to right, #1a1a1a, #1a1a1a),
     linear-gradient(to bottom, #548bfa, #28f1c3);
   background-clip: padding-box, border-box;
@@ -48,6 +84,16 @@
 }
 
 #card-2 {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#1a1a1a),
+      to(#1a1a1a)
+    ),
+    -webkit-gradient(linear, left top, left bottom, from(#febf2f), to(#fd6442));
+  background: -o-linear-gradient(left, #1a1a1a, #1a1a1a),
+    -o-linear-gradient(top, #febf2f, #fd6442);
   background: linear-gradient(to right, #1a1a1a, #1a1a1a),
     linear-gradient(to bottom, #febf2f, #fd6442);
   background-clip: padding-box, border-box;
@@ -56,6 +102,16 @@
 }
 
 #card-3 {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#1a1a1a),
+      to(#1a1a1a)
+    ),
+    -webkit-gradient(linear, left top, left bottom, from(#fc4272), to(#6e54fa));
+  background: -o-linear-gradient(left, #1a1a1a, #1a1a1a),
+    -o-linear-gradient(top, #fc4272, #6e54fa);
   background: linear-gradient(to right, #1a1a1a, #1a1a1a),
     linear-gradient(to bottom, #fc4272, #6e54fa);
   background-clip: padding-box, border-box;
@@ -64,6 +120,16 @@
 }
 
 #card-4 {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#1a1a1a),
+      to(#1a1a1a)
+    ),
+    -webkit-gradient(linear, left top, left bottom, from(#28f1c3), to(#febf2f));
+  background: -o-linear-gradient(left, #1a1a1a, #1a1a1a),
+    -o-linear-gradient(top, #28f1c3, #febf2f);
   background: linear-gradient(to right, #1a1a1a, #1a1a1a),
     linear-gradient(to bottom, #28f1c3, #febf2f);
   background-clip: padding-box, border-box;
@@ -99,7 +165,11 @@
 @media only screen and (max-width: 1100px) {
   /* Container correction */
   .card-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-flex: 4;
+    -ms-flex: 4;
     flex: 4;
   }
 }
@@ -107,7 +177,11 @@
 @media only screen and (max-width: 890px) {
   /* Container correction */
   .card-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-flex: 6;
+    -ms-flex: 6;
     flex: 6;
   }
   .card-title {
@@ -126,13 +200,16 @@
   #section-3 {
     padding-bottom: 4rem;
   }
-
 }
 
 @media only screen and (max-width: 850px) {
   /* Container correction */
   .card-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-flex: 8;
+    -ms-flex: 8;
     flex: 8;
   }
   #section-3-container {
@@ -145,5 +222,4 @@
   #section-3 {
     padding-bottom: 4rem;
   }
-
 }

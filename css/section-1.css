@@ -75,8 +75,16 @@
   height: 430pt;
   border: 0 solid transparent;
   width: 100%;
-  background-image: linear-gradient(13.5deg, #548BFA -10.15%, #26167A 98.88%);
+  background-image: -o-linear-gradient(
+    76.5deg,
+    #548bfa -10.15%,
+    #26167a 98.88%
+  );
+  background-image: linear-gradient(13.5deg, #548bfa -10.15%, #26167a 98.88%);
+  -webkit-clip-path: polygon(0 65%, 100% 51%, 100% 72%, 0 100%);
   clip-path: polygon(0 65%, 100% 51%, 100% 72%, 0 100%);
+  -webkit-transform: translate(0, 85pt);
+  -ms-transform: translate(0, 85pt);
   transform: translate(0, 85pt);
 }
 
@@ -128,6 +136,8 @@
   }
 
   #section-1-gradient {
+    -webkit-transform: translate(0, 95pt);
+    -ms-transform: translate(0, 95pt);
     transform: translate(0, 95pt);
   }
 }
