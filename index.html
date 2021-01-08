@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
@@ -69,9 +70,9 @@
         <!-- Social E-Commerce Platform and Screenshots-->
         <div class="container">
             <img src="https://millennium-dev-static.s3.eu-central-1.amazonaws.com/media/uploads/other/phone_represantation_1.png"
-                alt="Phone Penthaus Screenshot Home" id="phone-represantation-1">
+                alt="Phone Penthaus Screenshot Home" id="phone-presantation-1">
             <img src="https://millennium-dev-static.s3.eu-central-1.amazonaws.com/media/uploads/other/phone_representation_2.png"
-                alt="Phone Penthaus Screenshot Home" id="phone-represantation-2">
+                alt="Phone Penthaus Screenshot Home" id="phone-presantation-2">
             <div id="section-2-text-container">
                 <h6 id="section-2-text-top">Penthaus ist die innovativste</h6>
                 <h2 id="section-2-text-middle">Social E-Commerce Platform</h2>
@@ -81,197 +82,104 @@
             </div>
         </div>
 
+        <div id="section-2-gradient">
+            <svg width="100%" height="322" viewBox="0 0 1440 322" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="position: absolute;">
+                <defs>
+                    <linearGradient id="paint0_linear" x1="804.5" y1="-199" x2="721" y2="288"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FC4272" />
+                        <stop offset="1" stop-color="#FD6442" />
+                    </linearGradient>
+                </defs>
+                <path d="M0 0.5L1442 76.5V278L0 322V0.5Z" fill="url(#paint0_linear)" />
+            </svg>
+            <h2 id="section-2-gradient-text">Was dich erwartet</h2>
+        </div>
+
     </section>
-    <section>
-        <!-- Social E-Commerce Platform -->
-    </section>
-    <section>
+    <section id="section-3">
         <!-- Cards -->
+        <div class="container" id="section-3-container">
+            <div class="card-column">
+                <div class="card-container">
+                    <div class="card" id="card-1">
+                        <img src="https://millennium-dev-static.s3.eu-central-1.amazonaws.com/media/uploads/other/3D_phone.png"
+                            alt="3D Phone Illustration" class="card-image">
+                        <span class="card-title">Minimalistisch</span>
+                        <p class="card-text">Einfach zu bedienende und optisch ansprechende Native Applikation</p>
+                    </div>
+                    <div class="card" id="card-3">
+                        <img src="https://millennium-dev-static.s3.eu-central-1.amazonaws.com/media/uploads/other/3D_store.png"
+                            alt="3D Store Illustration" class="card-image">
+                        <span class="card-title">Vertrauen</span>
+                        <p class="card-text">Sehe Bewertungen von Shops und Produkten ein um Fehlkäufe zu vermeiden</p>
+                    </div>
+                </div>
+            </div>
+            <div id="card-container-spacer"></div>
+            <div class="card-column">
+                <div class="card-container">
+                    <div class="card" id="card-2">
+                        <img src="https://millennium-dev-static.s3.eu-central-1.amazonaws.com/media/uploads/other/3D_cart.png"
+                            alt="3D Cart Illustration" class="card-image">
+                        <span class="card-title">Übersicht</span>
+                        <p class="card-text">Behalte alle deine Wunschartikel in Listen fest, die mit Freunden tielen
+                            kannst</p>
+                    </div>
+                    <div class="card" id="card-4">
+                        <img src="https://millennium-dev-static.s3.eu-central-1.amazonaws.com/media/uploads/other/3D_rocket.png"
+                            alt="3D Rocket Illustration" class="card-image">
+                        <span class="card-title">Conversion</span>
+                        <p class="card-text">Lasse deinen Shop von einer erhöten Conversion Rate durch Social Proof und
+                            Mobile App profitieren</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section>
+    <section id="section-4">
         <!-- E-Mail Contact info -->
+        <div class="container flex-row">
+            <img src="https://millennium-dev-static.s3.eu-central-1.amazonaws.com/media/uploads/other/3D_mail.png"
+                alt="3D Mail Illustration" id="mail-image">
+            <div id="mail-text-container">
+                <h3 id="mail-title">Du hast Fragen?</h3>
+                <p id="mail-text">Gerne kannst du uns über die E-Mail Adresse <a id="mail-text-highlight"
+                        href="mailto: contact@mellennium.co">contact@mellennium.co</a> kontaktieren</p>
+            </div>
+        </div>
     </section>
     <footer>
+        <div class="container">
+            <div id="footer-grid">
+                <div class="footer-row">
+                    <div class="footer-row">
+                        <img src="https://millennium-dev-static.s3.eu-central-1.amazonaws.com/media/uploads/other/mellennium_logo.png"
+                            alt="Mellennium Logo" id="footer-logo">
+                        <p id="footer-company-text">© 2021 Mellennium GmbH</p>
+                    </div>
+                </div>
+                <div class="footer-row">
+                    <div class="footer-column" id="footer-column-middle">
+                        <p class="footer-text">Mellennium GmbH</p>
+                        <p class="footer-text">Birkhuhnweg 15</p>
+                        <p class="footer-text">85737</p>
+                        <p class="footer-text">Ismaning, Deutschland</p>
 
+                    </div>
+                </div>
+                <div class="footer-row">
+                    <div class="footer-column">
+                        <p class="footer-text">+49 170 2244007</p>
+                        <p class="footer-text">contact@mellennium.co</p>
+                        <p class="footer-text">Handelsregister München, HRB 253709</p>
+                        <p class="footer-text">Umsatzsteuer-ID-Nr.: DE328163258</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
-
-<style>
-    body {
-        background-color: #000;
-        padding: 0;
-        margin: 0;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    a,
-    p {
-        padding: 0;
-        margin: 0;
-        text-decoration: none;
-    }
-
-    header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 60px;
-        width: 100%;
-        z-index: 10;
-    }
-
-    /* if backdrop support: very transparent and blurred */
-    @supports ((-webkit-backdrop-filter: blur(2em)) or (backdrop-filter: blur(2em))) {
-        header {
-            -webkit-backdrop-filter: blur(2em);
-            backdrop-filter: blur(2em);
-        }
-    }
-
-    #header-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 100%;
-    }
-
-    #google-badge {
-        margin-left: 1rem;
-    }
-
-    .container {
-        padding: 0 50pt;
-        position: relative;
-    }
-
-    #title-part-1 {
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 5rem;
-        background-image: linear-gradient(-100deg, #6E54FA 40%, #FC4272, #FD6442);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    #title-part-2 {
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 5rem;
-        background-image: linear-gradient(90.99deg, #548BFA 0.28%, #28F1C3 40.66%, #FEBF2F 60.8%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    #title-divider {
-        width: 131px;
-        height: 8px;
-        background: linear-gradient(90.08deg, #FFFFFF 0.07%, rgba(255, 255, 255, 0.20) 230.4%);
-        margin: 1rem 0 2rem;
-    }
-
-    #title-description {
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        max-width: 50%;
-
-        color: rgba(255, 255, 255, 0.7);
-
-    }
-
-    #section-1 {
-        width: 100%;
-        height: calc(100vh - 7rem);
-        padding-top: 7rem;
-        background: radial-gradient(circle at top left, #000F44 0%, #000000 100%);
-        z-index: 9;
-        position: relative;
-    }
-
-    #section-1-gradient {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        z-index: 10;
-        transform: scale(1, 0.8) translate(0, 20vw);
-    }
-
-    #shopping-cart-3d-illustration {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        z-index: 11;
-        padding-top: 100%;
-        transform: translate(0, 2vw);
-    }
-
-    #phone-represantation-1 {
-        height: auto;
-        width: 18%;
-        transform: translate(0, 1rem);
-    }
-
-    #phone-represantation-2 {
-        height: auto;
-        width: 16%;
-        transform: translate(0, 4rem);
-        margin-left: 1rem;
-    }
-
-    #section-2 {
-        width: 100%;
-        height: 100vh;
-        z-index: 9;
-        position: relative;
-    }
-
-    #section-2-text-container {
-        position: absolute;
-        right: 50pt;
-        top: 10rem;
-        bottom: 0;
-        display: flex;
-        flex-direction: column;
-        width: 40%;
-        justify-content: center;
-    }
-
-    #section-2-text-top {
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 1.8rem;
-        color: #FFFFFF;
-        margin-bottom: 1.3rem;
-    }
-
-    #section-2-text-middle {
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 3.3rem;
-        margin-bottom: 1rem;
-        color: #FFFFFF;
-    }
-
-    #section-2-text-bottom {
-        font-family: Manrope;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 1.8rem;
-        color: #FFFFFF;
-    }
-</style>
 
 </html>
