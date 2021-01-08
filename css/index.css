@@ -1,0 +1,59 @@
+body {
+  background-color: #000;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+p {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: Manrope;
+}
+
+/* Variables */
+
+:root {
+  --margin-horizontal: 80pt;
+}
+
+@media only screen and (max-width: 1100px) {
+  /* Container correction */
+  :root {
+    --margin-horizontal: 40pt;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  /* Container correction */
+  :root {
+    --margin-horizontal: 20pt;
+  }
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  padding: 0 var(--margin-horizontal);
+  position: relative;
+}
+
+@media only screen and (min-width: 1620px) {
+  /* Container correction */
+  .container {
+    width: 1390px;
+    margin: 0 auto;
+    position: relative;
+  }
+}

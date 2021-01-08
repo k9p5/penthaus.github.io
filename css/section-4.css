@@ -1,0 +1,104 @@
+/* ------------------ Mail Start ----------------- */
+
+#section-4 {
+  width: 100%;
+  z-index: 9;
+  position: relative;
+  background-color: #333333;
+}
+
+#mail-image {
+  width: 35vw;
+  height: 35vw;
+}
+
+#mail-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+}
+
+#mail-title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+#mail-text {
+  font-style: normal;
+  font-weight: medium;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+
+  color: #ffffff;
+}
+
+#mail-text-highlight {
+  color: #548bfa;
+}
+
+@media only screen and (max-width: 880px) {
+  /* Mail text correction */
+  #mail-title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 0.6rem;
+  }
+
+  #mail-text {
+    font-weight: medium;
+    font-size: 1.1rem;
+    line-height: 2rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  /* Mail text correction */
+  #mail-title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 0.6rem;
+  }
+
+  #mail-text {
+    font-weight: medium;
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  /* Mail text correction */
+  #mail-image {
+    width: 30vw;
+    height: 30vw;
+    padding: 20pt 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Mail text correction */
+  #mail-text-container {
+    padding-left: 20pt;
+  }
+  #mail-text {
+    font-weight: medium;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  /* Mail text correction */
+  #mail-title {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-bottom: 0.6rem;
+  }
+}

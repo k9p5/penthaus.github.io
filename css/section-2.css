@@ -1,0 +1,212 @@
+#section-2 {
+  width: 100%;
+  height: 100vh;
+  z-index: 9;
+  position: relative;
+}
+
+#section-2-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  column-gap: 3rem;
+}
+
+#phone-presantation-1 {
+  height: auto;
+  width: 45%;
+  -webkit-transform: translate(0, 1rem);
+  -ms-transform: translate(0, 1rem);
+  transform: translate(0, 1rem);
+}
+
+#phone-presantation-2 {
+  height: auto;
+  width: 40%;
+  -webkit-transform: translate(0, 4rem);
+  -ms-transform: translate(0, 4rem);
+  transform: translate(0, 4rem);
+  margin-left: 1rem;
+}
+
+#section-2-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+#section-2-text-top {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-bottom: 1.3rem;
+}
+
+#section-2-text-middle {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.3rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+#section-2-text-bottom {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+#section-2-gradient-container {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-2-gradient {
+  height: 430pt;
+  border: 0 solid transparent;
+  width: 100%;
+  background-image: linear-gradient(217.56deg, #fc4272 -15.86%, #fd6442 72.29%);
+  clip-path: polygon(0 65%, 100% 71%, 100% 94%, 0 100%);
+  z-index: 9;
+  transform: translate(0, 140pt);
+}
+
+#section-2-gradient-text {
+  position: absolute;
+  bottom: 0pt;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  z-index: 10;
+  transform: translate(0, 8rem);
+}
+
+@media only screen and (max-width: 1190px) {
+  #section-2-text-top {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 0.9rem;
+  }
+
+  #section-2-text-middle {
+    font-size: 3rem;
+    margin-bottom: 0.7rem;
+  }
+
+  #section-2-text-bottom {
+    font-size: 1.2rem;
+  }
+
+  #section-2-gradient-text {
+    font-size: 2.7rem;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  #section-2 > div {
+    padding-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #section-2-text-top {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 0.9rem;
+  }
+
+  #section-2-text-middle {
+    font-size: 2.4rem;
+    margin-bottom: 0.7rem;
+  }
+
+  #section-2-text-bottom {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  #section-2-gradient-text {
+    font-size: 2.1rem;
+  }
+  #section-2-gradient {
+    height: 360pt;
+  }
+
+  #section-2 > div {
+    padding-top: 10rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  #section-2-gradient-text {
+    font-size: 1.8rem;
+  }
+  #section-2-gradient {
+    height: 340pt;
+  }
+  #section-2-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transform: translate(0, -2rem);
+  }
+
+  #section-2-grid > div:nth-child(1) {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #phone-presantation-1 {
+    height: auto;
+    width: 40%;
+    -webkit-transform: translate(0, -4rem);
+    -ms-transform: translate(0, -4rem);
+    transform: translate(0, -4rem);
+  }
+
+  #phone-presantation-2 {
+    height: auto;
+    width: 35%;
+    -webkit-transform: translate(0, 0rem);
+    -ms-transform: translate(0, 0rem);
+    transform: translate(0, 0rem);
+    margin-left: 1rem;
+  }
+
+  #section-2-text-middle {
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+  }
+
+  #section-2-text-container {
+    margin-top: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #section-2-text-middle {
+    font-size: 1.8rem;
+    margin-bottom: 0.7rem;
+  }
+}

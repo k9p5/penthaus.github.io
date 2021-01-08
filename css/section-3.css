@@ -1,0 +1,149 @@
+/* -------------- card start ----------------*/
+
+#section-3 {
+  width: 100%;
+  z-index: 9;
+  position: relative;
+  padding-bottom: 7rem;
+}
+
+#section-3-container {
+  display: flex;
+  flex: 1;
+  padding-top: 18rem;
+}
+
+#card-container-spacer {
+  display: flex;
+  flex: 1;
+}
+
+.card-column {
+  display: flex;
+  flex: 2;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card {
+  border: 0.3rem solid transparent;
+  border-radius: 1.4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-1 {
+  background: linear-gradient(to right, #1a1a1a, #1a1a1a),
+    linear-gradient(to bottom, #548bfa, #28f1c3);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+
+#card-2 {
+  background: linear-gradient(to right, #1a1a1a, #1a1a1a),
+    linear-gradient(to bottom, #febf2f, #fd6442);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  margin-top: 10rem;
+}
+
+#card-3 {
+  background: linear-gradient(to right, #1a1a1a, #1a1a1a),
+    linear-gradient(to bottom, #fc4272, #6e54fa);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  margin-top: 10rem;
+}
+
+#card-4 {
+  background: linear-gradient(to right, #1a1a1a, #1a1a1a),
+    linear-gradient(to bottom, #28f1c3, #febf2f);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  margin-top: 10rem;
+}
+
+.card-image {
+  width: 60%;
+  height: auto;
+}
+
+.card-title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.2vw;
+  text-align: center;
+  color: #ffffff;
+  margin: 1rem;
+}
+
+.card-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8vw;
+  line-height: 2.7vw;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.8);
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  /* Container correction */
+  .card-column {
+    display: flex;
+    flex: 4;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  /* Container correction */
+  .card-column {
+    display: flex;
+    flex: 6;
+  }
+  .card-title {
+    margin: 0.3rem;
+    font-size: 3vw;
+  }
+  .card {
+    padding: 1rem 0;
+  }
+
+  .card-text {
+    font-size: 2.6vw;
+    line-height: 3.8vw;
+  }
+
+  #section-3 {
+    padding-bottom: 4rem;
+  }
+
+}
+
+@media only screen and (max-width: 850px) {
+  /* Container correction */
+  .card-column {
+    display: flex;
+    flex: 8;
+  }
+  #section-3-container {
+    padding-top: 15rem;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  /* Container correction */
+  #section-3 {
+    padding-bottom: 4rem;
+  }
+
+}

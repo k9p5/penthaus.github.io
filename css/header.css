@@ -1,0 +1,57 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  z-index: 10;
+}
+
+/* if backdrop support: very transparent and blurred */
+@supports (
+  (-webkit-backdrop-filter: blur(2em)) or (backdrop-filter: blur(2em))
+) {
+  header {
+    -webkit-backdrop-filter: blur(2em);
+    backdrop-filter: blur(2em);
+  }
+}
+
+div > a > img {
+  width: 109.37px;
+  height: 35px;
+}
+
+#header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#google-badge {
+  margin-left: 1rem;
+}
+
+#header-container > svg {
+  width: 120px;
+  height: 22.3px;
+}
+
+@media only screen and (max-width: 460px) {
+  div > a > img {
+    width: 70px;
+    height: auto;
+    margin-top: 5pt;
+  }
+  #header-container > svg {
+    width: 100px;
+    height: 18.5px;
+  }
+}
