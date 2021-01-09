@@ -97,8 +97,8 @@
     #fd6442 72.29%
   );
   background-image: linear-gradient(217.56deg, #fc4272 -15.86%, #fd6442 72.29%);
-  -webkit-clip-path: polygon(0 65%, 100% 71%, 100% 94%, 0 100%);
-  clip-path: polygon(0 65%, 100% 71%, 100% 94%, 0 100%);
+  -webkit-clip-path: polygon(0 63%, 100% 72%, 100% 98%, 0 95%);
+  clip-path: polygon(0 63%, 100% 72%, 100% 98%, 0 95%);
   z-index: 9;
   -webkit-transform: translate(0, 140pt);
   -ms-transform: translate(0, 140pt);
@@ -175,7 +175,7 @@
     font-size: 1.8rem;
   }
   #section-2-gradient {
-    height: 340pt;
+    height: 350pt;
   }
 
   #section-2 {

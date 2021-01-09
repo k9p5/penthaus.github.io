@@ -176,13 +176,11 @@
 
 @media only screen and (max-width: 890px) {
   /* Container correction */
-  .card-column {
+  #card-container-spacer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 6;
-    -ms-flex: 6;
-    flex: 6;
+    width: var(--margin-horizontal);
   }
   .card-title {
     margin: 0.3rem;
@@ -200,18 +198,18 @@
   #section-3 {
     padding-bottom: 4rem;
   }
+
+  #card-3 {
+    margin-top: 5rem;
+  }
+
+  #card-4 {
+    margin-top: 5rem;
+  }
 }
 
 @media only screen and (max-width: 850px) {
   /* Container correction */
-  .card-column {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 8;
-    -ms-flex: 8;
-    flex: 8;
-  }
   #section-3-container {
     padding-top: 15rem;
   }

@@ -2,6 +2,7 @@ body {
   background-color: #000;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 h1,
@@ -52,6 +53,44 @@ p {
 .container {
   padding: 0 var(--margin-horizontal);
   position: relative;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+.slide-in-bottom {
+  transform: translateY(20%);
+  opacity: 0;
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+}
+
+.slide-in-bottom.appear {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-in-left {
+  transform: translateX(-10%);
+  opacity: 0;
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+}
+
+.slide-in-right {
+  transform: translateX(10%);
+  opacity: 0;
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+}
+
+.slide-in-right.appear,
+.slide-in-left.appear {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 @media only screen and (min-width: 1620px) {
