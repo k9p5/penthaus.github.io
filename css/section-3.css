@@ -7,7 +7,7 @@
   padding-bottom: 7rem;
 }
 
-#section-3-container {
+#section-3 > div.container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -145,7 +145,7 @@
 .card-title {
   font-style: normal;
   font-weight: 800;
-  font-size: 2.2vw;
+  font-size: 2.3em;
   text-align: center;
   color: #ffffff;
   margin: 1rem;
@@ -154,8 +154,8 @@
 .card-text {
   font-style: normal;
   font-weight: 500;
-  font-size: 1.8vw;
-  line-height: 2.7vw;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
   text-align: center;
 
   color: rgba(255, 255, 255, 0.8);
@@ -182,17 +182,19 @@
     display: flex;
     width: var(--margin-horizontal);
   }
+
   .card-title {
+    font-size: 2rem;
     margin: 0.3rem;
-    font-size: 3vw;
-  }
-  .card {
-    padding: 1rem 0;
   }
 
   .card-text {
-    font-size: 2.6vw;
-    line-height: 3.8vw;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .card {
+    padding: 1rem 0;
   }
 
   #section-3 {
@@ -210,10 +212,27 @@
 
 @media only screen and (max-width: 850px) {
   /* Container correction */
-  #section-3-container {
+  #section-3 > div.container {
     padding-top: 15rem;
   }
 }
+
+@media only screen and (max-width: 720px) {
+  .card-title {
+    font-size: 1.6rem;
+    margin: 0.4rem 0;
+  }
+}
+
+
+@media only screen and (max-width: 580px) {
+  .card-title {
+    font-size: 1.4rem;
+    margin: 0.3rem 0;
+  }
+}
+
+
 
 @media only screen and (max-width: 520px) {
   /* Container correction */
@@ -221,8 +240,12 @@
     padding-bottom: 4rem;
   }
   .card-title {
-    font-size: 1rem;
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
+    font-size: 1.1rem;
+    margin: 0.2rem 0;
+  }
+
+  .card-text {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
   }
 }

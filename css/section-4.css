@@ -7,12 +7,12 @@
   background-color: #333333;
 }
 
-#mail-image {
+#section-4 > div.container > img {
   width: 35vw;
   height: 35vw;
 }
 
-#mail-text-container {
+#section-4 > div.container > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,7 +26,7 @@
   padding-left: 5rem;
 }
 
-#mail-title {
+#section-4 > div.container > div > h3 {
   font-style: normal;
   font-weight: 800;
   font-size: 3rem;
@@ -34,7 +34,7 @@
   margin-bottom: 1rem;
 }
 
-#mail-text {
+#section-4 > div.container > div > p {
   font-style: normal;
   font-weight: medium;
   font-size: 1.5rem;
@@ -43,20 +43,20 @@
   color: #ffffff;
 }
 
-#mail-text-highlight {
+#section-4 > div.container > div > p > a {
   color: #548bfa;
 }
 
 @media only screen and (max-width: 880px) {
   /* Mail text correction */
-  #mail-title {
+  #section-4 > div.container > div > h3 {
     font-weight: 700;
     font-size: 2rem;
     color: #ffffff;
     margin-bottom: 0.6rem;
   }
 
-  #mail-text {
+  #section-4 > div.container > div > p {
     font-weight: medium;
     font-size: 1.1rem;
     line-height: 2rem;
@@ -65,14 +65,14 @@
 
 @media only screen and (max-width: 680px) {
   /* Mail text correction */
-  #mail-title {
+  #section-4 > div.container > div > h3  {
     font-weight: 700;
     font-size: 1.8rem;
     color: #ffffff;
     margin-bottom: 0.6rem;
   }
 
-  #mail-text {
+  #section-4 > div.container > div > p {
     font-weight: medium;
     font-size: 1rem;
     line-height: 1.8rem;
@@ -81,7 +81,7 @@
 
 @media only screen and (max-width: 680px) {
   /* Mail text correction */
-  #mail-image {
+  #section-4 > div.container > img {
     width: 30vw;
     height: 30vw;
     padding: 20pt 0;
@@ -90,10 +90,10 @@
 
 @media only screen and (max-width: 600px) {
   /* Mail text correction */
-  #mail-text-container {
+  #section-4 > div.container > div {
     padding-left: 20pt;
   }
-  #mail-text {
+  #section-4 > div.container > div > p {
     font-weight: medium;
     font-size: 0.9rem;
     line-height: 1.6rem;
@@ -102,7 +102,7 @@
 
 @media only screen and (max-width: 440px) {
   /* Mail text correction */
-  #mail-title {
+  #section-4 > div.container > div > h3 {
     font-weight: 700;
     font-size: 1.3rem;
     color: #ffffff;

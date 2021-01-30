@@ -22,7 +22,7 @@ div > a > img {
   height: 35px;
 }
 
-#header-container {
+header > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,11 +35,11 @@ div > a > img {
   height: 100%;
 }
 
-#google-badge {
+header > div > div > a:nth-child(2) > img {
   margin-left: 1rem;
 }
 
-#header-container > svg {
+header > div > svg {
   width: 120px;
   height: 22.3px;
 }
@@ -50,7 +50,7 @@ div > a > img {
     height: auto;
     margin-top: 5pt;
   }
-  #header-container > svg {
+  header > div > svg {
     width: 100px;
     height: 18.5px;
   }

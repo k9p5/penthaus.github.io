@@ -1,4 +1,4 @@
-#title-part-1 {
+#section-1 > div > h1:nth-child(1) {
   font-style: normal;
   font-weight: 800;
   font-size: 5rem;
@@ -9,7 +9,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-#title-part-2 {
+#section-1 > div > h1:nth-child(2) {
   font-style: normal;
   font-weight: 800;
   font-size: 5rem;
@@ -30,7 +30,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-#title-divider {
+#section-1 > div > div {
   width: 131px;
   height: 8px;
   background: -o-linear-gradient(
@@ -46,7 +46,7 @@
   margin: 1rem 0 2rem;
 }
 
-#title-description {
+#section-1 > div > p {
   font-style: normal;
   font-weight: 500;
   font-size: 1.2rem;
@@ -66,7 +66,7 @@
   position: relative;
 }
 
-#section-1-gradient {
+#section-1 > img:nth-child(2) {
   position: absolute;
   bottom: 0;
   left: 0px;
@@ -88,7 +88,7 @@
   transform: translate(0, 85pt);
 }
 
-#shopping-cart-3d-illustration {
+#section-1 > img:nth-child(3) {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -98,44 +98,44 @@
 }
 
 @media only screen and (max-width: 1100px) {
-  #title-part-1 {
+  #section-1 > div > h1:nth-child(1) {
     font-size: 4rem;
   }
 
-  #title-part-2 {
+  #section-1 > div > h1:nth-child(2) {
     font-size: 4rem;
   }
 
-  #title-description {
+  #section-1 > div > p {
     font-size: 1.1rem;
     line-height: 1.6rem;
   }
 }
 
 @media only screen and (max-width: 850px) {
-  #title-part-1 {
+  #section-1 > div > h1:nth-child(1) {
     font-size: 3.5rem;
   }
 
-  #title-part-2 {
+  #section-1 > div > h1:nth-child(2) {
     font-size: 3.5rem;
   }
 
-  #title-description {
+  #section-1 > div > p {
     font-size: 1rem;
     line-height: 1.5rem;
   }
 
-  #title-divider {
+  #section-1 > div > div {
     width: 90px;
     height: 8px;
   }
 
-  #shopping-cart-3d-illustration {
+  #section-1 > img:nth-child(3) {
     width: 60%;
   }
 
-  #section-1-gradient {
+  #section-1 > img:nth-child(2) {
     -webkit-transform: translate(0, 95pt);
     -ms-transform: translate(0, 95pt);
     transform: translate(0, 95pt);
@@ -143,30 +143,30 @@
 }
 
 @media only screen and (max-width: 700px) {
-  #title-description {
+  #section-1 > div > p {
     max-width: 70%;
   }
-  #shopping-cart-3d-illustration {
+  #section-1 > img:nth-child(3) {
     width: 70%;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  #title-part-1 {
+  #section-1 > div > h1:nth-child(1) {
     font-size: 2.2rem;
   }
 
-  #title-part-2 {
+  #section-1 > div > h1:nth-child(2) {
     font-size: 2.2rem;
   }
-  #shopping-cart-3d-illustration {
+  #section-1 > img:nth-child(3) {
     width: 80%;
   }
 }
 
 @media only screen and (min-width: 1620px) {
   /* Container correction */
-  #shopping-cart-3d-illustration {
+  #section-1 > img:nth-child(3) {
     width: 80vh;
   }
 }

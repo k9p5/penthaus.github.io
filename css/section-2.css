@@ -5,7 +5,7 @@
   padding-bottom: 8rem;
 }
 
-#section-2-grid {
+#section-2 > div.container > div {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 3rem 1fr;
@@ -16,7 +16,7 @@
   column-gap: 3rem;
 }
 
-#phone-presantation-1 {
+#section-2-image-container > img:nth-child(1) {
   height: auto;
   width: 45%;
   -webkit-transform: translate(0, 1rem);
@@ -24,7 +24,7 @@
   transform: translate(0, 1rem);
 }
 
-#phone-presantation-2 {
+#section-2-image-container > img:nth-child(2) {
   height: auto;
   width: 40%;
   -webkit-transform: translate(0, 4rem);
@@ -48,7 +48,7 @@
   margin-top: 2rem;
 }
 
-#section-2-text-top {
+#section-2-text-container > h6:nth-child(1) {
   font-style: normal;
   font-weight: bold;
   font-size: 1.6rem;
@@ -56,7 +56,7 @@
   margin-bottom: 1.3rem;
 }
 
-#section-2-text-middle {
+#section-2-text-container > h2 {
   font-style: normal;
   font-weight: 800;
   font-size: 3.3rem;
@@ -64,7 +64,7 @@
   color: #ffffff;
 }
 
-#section-2-text-bottom {
+#section-2-text-container > h6:nth-child(3) {
   font-style: normal;
   font-weight: bold;
   font-size: 1.6rem;
@@ -87,7 +87,7 @@
   align-items: center;
 }
 
-#section-2-gradient {
+#section-2-gradient-container > img {
   height: 430pt;
   border: 0 solid transparent;
   width: 100%;
@@ -105,7 +105,7 @@
   transform: translate(0, 140pt);
 }
 
-#section-2-gradient-text {
+#section-2-gradient-container > h2 {
   position: absolute;
   bottom: 0pt;
   font-style: normal;
@@ -120,48 +120,48 @@
 }
 
 @media only screen and (max-width: 1190px) {
-  #section-2-text-top {
+  #section-2-text-container > h6:nth-child(1) {
     font-size: 1.2rem;
     color: #ffffff;
     margin-bottom: 0.9rem;
   }
 
-  #section-2-text-middle {
+  #section-2-text-container > h2 {
     font-size: 3rem;
     margin-bottom: 0.7rem;
   }
 
-  #section-2-text-bottom {
+  #section-2-text-container > h6:nth-child(3) {
     font-size: 1.2rem;
   }
 
-  #section-2-gradient-text {
+  #section-2-gradient-container > h2 {
     font-size: 2.7rem;
   }
 }
 
 @media only screen and (max-width: 850px) {
-  #section-2-text-top {
+  #section-2-text-container > h6:nth-child(1) {
     font-weight: 600;
     font-size: 1rem;
     color: #ffffff;
     margin-bottom: 0.9rem;
   }
 
-  #section-2-text-middle {
+  #section-2-text-container > h2 {
     font-size: 2.4rem;
     margin-bottom: 0.7rem;
   }
 
-  #section-2-text-bottom {
+  #section-2-text-container > h6:nth-child(3) {
     font-weight: 600;
     font-size: 1rem;
   }
 
-  #section-2-gradient-text {
+  #section-2-gradient-container > h2 {
     font-size: 2.1rem;
   }
-  #section-2-gradient {
+  #section-2-gradient-container > img {
     height: 360pt;
   }
 
@@ -171,10 +171,10 @@
 }
 
 @media only screen and (max-width: 680px) {
-  #section-2-gradient-text {
+  #section-2-gradient-container > h2 {
     font-size: 1.8rem;
   }
-  #section-2-gradient {
+  #section-2-gradient-container > img {
     height: 350pt;
   }
 
@@ -182,7 +182,7 @@
     padding-bottom: 1rem;
   }
 
-  #section-2-grid {
+  #section-2 > div.container > div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -196,7 +196,7 @@
     transform: translate(0, -2rem);
   }
 
-  #section-2-grid > div:nth-child(1) {
+  #section-2 > div.container > div > div:nth-child(1) {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -209,7 +209,7 @@
     align-items: center;
   }
 
-  #phone-presantation-1 {
+  #section-2-image-container > img:nth-child(1) {
     height: auto;
     width: 40%;
     -webkit-transform: translate(0, -4rem);
@@ -217,7 +217,7 @@
     transform: translate(0, -4rem);
   }
 
-  #phone-presantation-2 {
+  #section-2-image-container > img:nth-child(2) {
     height: auto;
     width: 35%;
     -webkit-transform: translate(0, 0rem);
@@ -226,7 +226,7 @@
     margin-left: 1rem;
   }
 
-  #section-2-text-middle {
+  #section-2-text-container > h2 {
     font-size: 2rem;
     margin-bottom: 0.7rem;
   }
@@ -237,7 +237,7 @@
 }
 
 @media only screen and (max-width: 575px) {
-  #section-2-text-middle {
+  #section-2-text-container > h2 {
     font-size: 1.8rem;
     margin-bottom: 0.7rem;
   }

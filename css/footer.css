@@ -5,7 +5,7 @@ footer {
   padding: 2rem 0;
 }
 
-#footer-grid {
+footer > div.container > div {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -32,12 +32,12 @@ footer {
   padding-top: 22pt;
 }
 
-#footer-logo {
+.footer-row > img {
   height: 60pt;
   width: 60pt;
 }
 
-#footer-company-text {
+footer > div > div > div:nth-child(1) > div > p {
   font-style: normal;
   font-weight: 500;
   font-size: 1.1rem;
@@ -55,13 +55,13 @@ footer {
   margin: 0 0 10pt;
 }
 
-#footer-column-middle {
+footer > div > div > div:nth-child(2) > div {
   padding-left: 3rem;
 }
 
 @media only screen and (max-width: 1138px) {
   /* Footer correction */
-  #footer-company-text {
+  footer > div > div > div:nth-child(1) > div > p {
     margin: 12pt 0 0 10pt;
   }
   .footer-column {
@@ -71,7 +71,7 @@ footer {
 
 @media only screen and (max-width: 820px) {
   /* Footer correction */
-  #footer-grid {
+  footer > div.container > div {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 15pt 1fr;
@@ -80,17 +80,21 @@ footer {
     -moz-column-gap: 15pt;
     column-gap: 15pt;
   }
-  #footer-grid > div:nth-child(1) {
+
+  footer > div.container > div > div:nth-child(1) {
+    grid-column: 1;
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-column-span: 2;
     grid-column-end: 3;
     padding-bottom: 1rem;
   }
-  #footer-company-text {
+
+  footer > div > div > div:nth-child(1) > div > p {
     margin: 20pt 0 0 10pt;
   }
-  #footer-column-middle {
+
+  footer > div > div > div:nth-child(2) > div {
     padding-left: 0;
   }
 }
