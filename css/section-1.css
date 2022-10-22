@@ -1,6 +1,5 @@
 #section-1 > div > h1:nth-child(1) {
-  font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 5rem;
   background-image: -o-linear-gradient(190deg, #6e54fa 40%, #fc4272, #fd6442);
   background-image: linear-gradient(-100deg, #6e54fa 40%, #fc4272, #fd6442);
@@ -10,9 +9,9 @@
 }
 
 #section-1 > div > h1:nth-child(2) {
-  font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 5rem;
+  line-height: 5rem;
   background-image: -o-linear-gradient(
     359.01deg,
     #548bfa 0.28%,
@@ -31,29 +30,20 @@
 }
 
 #section-1 > div > div {
-  width: 131px;
-  height: 8px;
-  background: -o-linear-gradient(
-    359.92deg,
-    #ffffff 0.07%,
-    rgba(255, 255, 255, 0.2) 230.4%
-  );
-  background: linear-gradient(
-    90.08deg,
-    #ffffff 0.07%,
-    rgba(255, 255, 255, 0.2) 230.4%
-  );
+  width: 90px;
+  height: 2pt;
+  background-color: white;
+  opacity: 80%;
   margin: 1rem 0 2rem;
 }
 
 #section-1 > div > p {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.2rem;
-  line-height: 1.7rem;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
   max-width: 50%;
 
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 #section-1 {
