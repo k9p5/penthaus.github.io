@@ -2,49 +2,49 @@
   font-family: 'Prompt';
   font-style: normal;
   font-weight: 200;
-  src: local('Prompt ExtraLight'), local('Prompt-ExtraLight'), url('/fonts/Prompt-ExtraLight.ttf') format('ttf');
+  src: local('Prompt ExtraLight'), local('Prompt-ExtraLight'), url('/fonts/Prompt-ExtraLight.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Prompt';
   font-style: normal;
   font-weight: 300;
-  src: local('Prompt Light'), local('Prompt-Light'), url('/fonts/Prompt-Light.ttf') format('ttf');
+  src: local('Prompt Light'), local('Prompt-Light'), url('/fonts/Prompt-Light.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Prompt';
   font-style: normal;
   font-weight: 400;
-  src: local('Prompt Regular'), local('Prompt-Regular'), url('/fonts/Prompt-Regular.ttf') format('ttf');
+  src: local('Prompt Regular'), local('Prompt-Regular'), url('/fonts/Prompt-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Prompt';
   font-style: normal;
   font-weight: 500;
-  src: local('Prompt Medium'), local('Prompt-Medium'), url('/fonts/Prompt-Medium.ttf') format('ttf');
+  src: local('Prompt Medium'), local('Prompt-Medium'), url('/fonts/Prompt-Medium.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Prompt';
   font-style: normal;
   font-weight: 600;
-  src: local('Prompt SemiBold'), local('Prompt-SemiBold'), url('/fonts/Prompt-SemiBold.ttf') format('ttf');
+  src: local('Prompt SemiBold'), local('Prompt-SemiBold'), url('/fonts/Prompt-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Prompt';
   font-style: normal;
   font-weight: 700;
-  src: local('Prompt Bold'), local('Prompt-Bold'), url('/fonts/Prompt-Bold.ttf') format('ttf');
+  src: local('Prompt Bold'), local('Prompt-Bold'), url('/fonts/Prompt-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Prompt';
   font-style: normal;
   font-weight: 800;
-  src: local('Prompt ExtraBold'), local('Prompt-ExtraBold'), url('/fonts/Prompt-ExtraBold.ttf') format('ttf');
+  src: local('Prompt ExtraBold'), local('Prompt-ExtraBold'), url('/fonts/Prompt-ExtraBold.ttf') format('truetype');
 }
 
 
@@ -52,7 +52,7 @@
   font-family: 'Prompt';
   font-style: normal;
   font-weight: 900;
-  src: local('Prompt Black'), local('Prompt-Black'), url('/fonts/Prompt-Black.ttf') format('ttf');
+  src: local('Prompt Black'), local('Prompt-Black'), url('/fonts/Prompt-Black.ttf') format('truetype');
 }
 
 
